@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_metadata
+
+# Datasets & large files
+dataset/
+*.zip
+*.tar.gz
+*.h5
+*.hdf5
+*.keras
+*.pb
+
+# Logs & outputs
+logs/
+runs/
+*.log
+training_history/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
