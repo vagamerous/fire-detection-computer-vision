@@ -1,12 +1,12 @@
-# 🔥 FlameVision — Fire Detection with CNN
+# fire-detection-computer-vision
 
 A binary image classification model that detects **fire vs. no fire** in images using a custom Convolutional Neural Network built with TensorFlow/Keras.
 
 ---
 
-## 📌 Overview
+## Overview
 
-FlameVision trains a lightweight 4-block CNN on the [FlameVision dataset](https://www.kaggle.com/datasets/) to classify images as either `FIRE` or `NOFIRE`. The model is designed to balance accuracy and speed, making it suitable for real-time or edge deployment scenarios.
+This project trains a lightweight 4-block CNN on the FlameVision dataset to classify images as either `FIRE` or `NOFIRE`. The model is designed to balance accuracy and speed, making it suitable for real-time or edge deployment scenarios.
 
 | Metric | Value |
 |--------|-------|
@@ -18,7 +18,7 @@ FlameVision trains a lightweight 4-block CNN on the [FlameVision dataset](https:
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ```
 Input (128×128×3)
@@ -39,10 +39,10 @@ Key design choices:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-flamevision/
+fire-detection-computer-vision/
 ├── src/
 │   └── train.py          # Model definition, training, and evaluation
 ├── notebooks/
@@ -54,13 +54,13 @@ flamevision/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/flamevision.git
-cd flamevision
+git clone https://github.com/your-username/fire-detection-computer-vision.git
+cd fire-detection-computer-vision
 ```
 
 ### 2. Install dependencies
@@ -96,7 +96,7 @@ python src/train.py
 
 ---
 
-## ⚙️ Training Configuration
+## Training Configuration
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -114,7 +114,7 @@ python src/train.py
 
 ---
 
-## 📊 Callbacks
+## Callbacks
 
 | Callback | Config |
 |----------|--------|
@@ -124,7 +124,7 @@ python src/train.py
 
 ---
 
-## 🔍 Inference
+## Inference
 
 To predict a single image programmatically:
 
@@ -139,7 +139,7 @@ print(f"{label} ({confidence:.2%})")
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - [TensorFlow](https://www.tensorflow.org/) / [Keras](https://keras.io/)
 - [NumPy](https://numpy.org/)
@@ -148,6 +148,6 @@ print(f"{label} ({confidence:.2%})")
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
