@@ -12,7 +12,7 @@ Results:\
 Accuracy: 98%
 
 Technologies:\
-Python
-OpenCV
-NumPy
+Python\
+OpenCV\
+NumPy\
 Scikit-learn
