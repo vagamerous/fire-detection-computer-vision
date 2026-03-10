@@ -1,17 +1,17 @@
 Fire Detection using Computer Vision
 
-Problem: 
+Problem:\
 Detect fire in images automatically using machine learning.
 
-Approach:n\
+Approach:\
 Binary classifier trained to classify images into:
 - Fire
 - No Fire
 
-Results
+Results:\
 Accuracy: 98%
 
-Technologies:
+Technologies:\
 Python
 OpenCV
 NumPy
